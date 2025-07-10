@@ -12,7 +12,7 @@ A simple Gradio app that allows users to:
 
 2. Run the script:
  ```bash
-   python resume_chatbot.py
+   python new.py
    ```
 3. A browser window will open with the chatbot UI.
 * This is a base interface — NLP logic for parsing resumes 
