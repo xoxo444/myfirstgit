@@ -19,7 +19,7 @@ def query_bot(file, query, num_results):
 
     return response
 
-
+     #custom CSS
 custom_css = """
 body {
     margin: 0;
@@ -51,7 +51,7 @@ body {
 #title h2 {
     font-family: 'Playfair Display', serif !important;
     color: beige !important;
-    font-size: 65px !important;
+    font-size: 70px !important;
     text-align: center !important;
     margin-bottom: 20px !important;
 }
@@ -131,7 +131,7 @@ with gr.Blocks(css=custom_css, title="Resume Chatbot") as demo:
         outputs=output
     )
     
-
+     #HTML 
     gr.HTML("""
     <div style="text-align: center; margin-top: 10px;">
         <button onclick="copyResponse()" 
