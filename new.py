@@ -19,7 +19,7 @@ def query_bot(file, query, num_results):
 
     return response
 
-     #custom CSS
+     
 custom_css = """
 body {
     margin: 0;
